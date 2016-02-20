@@ -1,0 +1,21 @@
+{
+  "name": "node-morse-code",
+  "version": "1.0.0",
+  "description": "Converts text into morse code and blinks an LED on a Raspberry Pi",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGennoy/node-morse-code.git"
+  },
+  "author": "James Gennoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesGennoy/node-morse-code/issues"
+  },
+  "homepage": "https://github.com/JamesGennoy/node-morse-code#readme",
+  "dependencies": {
+    "cli-spinner": "^0.2.4",
+    "onoff": "^1.0.4",
+    "prompt": "^1.0.0"
+  }
+}
