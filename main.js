@@ -4,7 +4,12 @@ var colors = require('colors/safe');
 var Spinner = require('cli-spinner').Spinner;
 var MORSE_CODES = require('./MorseCodes');
 
-var led = new Gpio(21, 'out');
+var red = new Gpio(26, 'out');
+var green = new Gpio(19, 'out');
+var blue = new Gpio(13, 'out');
+var yellow = new Gpio(6, 'out');
+
+var led = blue;
 
 var i = 0;
 var input;
